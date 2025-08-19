@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post_ID</title>
+    <style>
+      h1 {
+        color: maroon;
+      }
+      div {
+        background-color: blanchedalmond;
+      }
+      h3 {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Here is Your Post by ID</h1>
+    <p><%=post.id %></p>
+    <div class="post">
+      <h3 class="username"><%=post.username %></h3>
+      <h4 class="content"><%=post.content %></h4>
+    </div>
+    <br />
+    <br />
+    <button><a href="http://localhost:5000/posts">ALL POSTS</a></button>
+  </body>
+</html>
